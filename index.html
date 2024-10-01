@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="output.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="style.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
     <nav class="flex justify-between items-center p-5 bg-[#070A29] text-white">
         <div class="navbrand">
-            <img class="w-40" src="./images/logo.png" alt="">
+            <img class="w-40" src="./src/images/logo.png" alt="">
         </div>
         <div class="hidden lg:flex gap-12">
             <a class="font-medium" href="">Home</a>
@@ -29,7 +29,7 @@
         <div class="fixed inset-0 bg-[#070A29] p-5 lg:hidden hidden" id="mobileMenu">
             <div class="flex justify-between items-center">
                 <div class="navbrand">
-                    <img class="w-40" src="./images/logo.png" alt="">
+                    <img class="w-40" src="./src/images/logo.png" alt="">
                 </div>
                 <button class="lg:hidden" onclick="toggleMenu()">
                     <span class="iconify text-4xl" data-icon="line-md:menu-to-close-transition"></span>
@@ -67,6 +67,6 @@
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"></script>
-<script src="./custom.js"></script>
+<script src="./src/custom.js"></script>
 
 </html>
