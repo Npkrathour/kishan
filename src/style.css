@@ -15,3 +15,18 @@
   transform: translateY(-2px); /* Slight upward movement on hover */
   box-shadow: 0 4px 8px rgba(92, 39, 254, 0.3); /* Subtle shadow on hover */
 }
+.bg-gradient {
+  background: rgb(7, 10, 41);
+  background: linear-gradient(
+    76deg,
+    rgba(7, 10, 41, 1) 60%,
+    rgba(9, 9, 121, 0.6615896358543417) 100%,
+    rgba(55, 46, 120, 1) 100%
+  );
+  width: 100%;
+}
+.font-size-1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+}
