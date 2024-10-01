@@ -10,38 +10,57 @@
 </head>
 
 <body>
-    <nav class="flex justify-between items-center p-3">
+    <nav class="flex justify-between items-center p-5 bg-[#070A29] text-white">
         <div class="navbrand">
-            Navbar
+            <img class="w-40" src="./images/logo.png" alt="">
         </div>
-        <div class="hidden md:flex gap-12">
-            <a href="">Home</a>
-            <a href="">Home</a>
-            <a href="">Home</a>
-            <a href="">Home</a>
-            <a href="">Home</a>
-            <a href="">Home</a>
+        <div class="hidden lg:flex gap-12">
+            <a class="font-medium" href="">Home</a>
+            <a class="font-medium" href="">About Us</a>
+            <a class="font-medium" href="">Services</a>
+            <a class="font-medium" href="">Portfolio</a>
+            <a class="font-medium" href="">Contact Us</a>
         </div>
-        <button class="hidden md:flex">Hire me</button>
-        <button class="toggle md:hidden " onclick="toggleMenu()">
-            <span class="iconify" data-icon="ri:menu-3-fill"></span>
+        <a href="" class="hidden lg:flex hire">Hire me</a>
+        <button class="toggle lg:hidden " onclick="toggleMenu()">
+            <span class="iconify text-4xl" data-icon="ri:menu-3-fill"></span>
         </button>
-        <div class="fixed inset-0 bg-red-500 p-3 md:hidden hidden" id="mobileMenu">
+        <!-- ==============Mobile Menu ============ -->
+        <div class="fixed inset-0 bg-[#070A29] p-5 lg:hidden hidden" id="mobileMenu">
             <div class="flex justify-between items-center">
                 <div class="navbrand">
-                    Navbar
+                    <img class="w-40" src="./images/logo.png" alt="">
                 </div>
-                <button class="md:hidden" onclick="toggleMenu()">
-                    <span class="iconify" data-icon="line-md:menu-to-close-transition"></span>
+                <button class="lg:hidden" onclick="toggleMenu()">
+                    <span class="iconify text-4xl" data-icon="line-md:menu-to-close-transition"></span>
                 </button>
             </div>
-            <div class="flex flex-col">
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
-                <a href="">Home</a>
+            <div class="flex flex-col pt-6">
+                <a href="" class="font-medium py-3">Home</a>
+                <a href="" class="font-medium py-3">About Us</a>
+                <a href="" class="font-medium py-3">Services</a>
+                <a href="" class="font-medium py-3">Portfolio</a>
+                <a href="" class="font-medium py-3">Contact Us</a>
+                <a href="" class="hire">Hire me</a>
+
+            </div>
+            <div class="flex justify-between items-center gap-2 py-5">
+                <a href=""><span class="iconify text-4xl font-medium" data-icon="bi:github"></span></a>
+                <a href="">
+                    <span class="iconify text-4xl font-medium" data-icon="bi:linkedin"></span>
+                </a>
+                <a href="">
+                    <span class="iconify text-4xl font-medium" data-icon="bi:instagram"></span>
+                </a>
+                <a href="">
+                    <span class="iconify text-5xl font-medium" data-icon="vscode-icons:file-type-replit"></span>
+                </a>
+                <a href="">
+                    <span class="iconify text-5xl font-medium" data-icon="basil:medium-solid"></span>
+                </a>
+                <a href="">
+                    <span class="iconify text-4xl font-medium" data-icon="akar-icons:facebook-fill"></span>
+                </a>
             </div>
         </div>
     </nav>
