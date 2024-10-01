@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="./src/output.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="./src/style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="./src/style.css" rel="stylesheet">
+    <script src="./src/tailwind.js"></script>
 </head>
 
 <body>
@@ -67,14 +67,18 @@
     <!-- =============Home Section============== -->
     <section class="bg-gradient">
         <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-center items-center py-5 h-screen">
-            <div class="w-full md:w-1/2 py-5 text-center md:text-left">
-                <h2 class="text-3xl text-white font-bold">Hi, I'm</h2>
-                <h1 class="text-white text-4xl md:text-5xl font-bold">Kishan Jaiswal, <br>Unity & Game Developer</h1>
+            <div class="w-full md:w-1/2 py-5 text-center md:text-left p-8">
+                <h2 class="text-3xl text-white font-bold">Hi I'm,</h2>
+                <h1 class="text-white font-size-1">Kishan Jaiswal, <br>Unity & Game Developer</h1>
+
             </div>
             <div class="w-full md:w-1/2 py-5 flex justify-center">
-                <div class="w-full max-w-md h-auto">
-                    <img class="w-full h-auto object-cover rounded-3xl"
+                <div class="w-full max-w-lg h-[550px] p-8 relative">
+                    <img class="w-full h-full object-cover rounded-3xl z-50"
                         src="./src/images/banner.b41e8bd3384755f8ff18.png" alt="Kishan Jaiswal Banner">
+                    <div class="absolute -top-9 left-14 right-0 w-full h-[480px] bg-slate-100 -z-40 rounded-3xl"></div>
+                    <div class="absolute -top-5 left-8 right-0 w-full h-[480px] bg-slate-200 -z-40 rounded-3xl"></div>
+                    <div class="absolute top-2 left-0 right-0 w-full h-[490px] bg-gray-300  -z-20 rounded-3xl"></div>
                 </div>
             </div>
         </div>
