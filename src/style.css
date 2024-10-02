@@ -1,11 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-* {
-  font-family: "Orbitron", sans-serif;
-}
 
 h1,
 h2,
@@ -17,9 +11,6 @@ h6 {
 }
 a,
 p {
-  /* font-family: "Open Sans", sans-serif; */
-  /* font-family: "Merriweather", serif; */
-  /* font-family: "Playfair Display", serif; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -33,7 +24,7 @@ p {
   background: linear-gradient(85deg, #dec7ff -38.2%, #5c27fe 103.12%);
   border-radius: 6px;
   padding: 8px 20px;
-  transform: translateY(-2px); /* Slight upward movement on hover */
+  transform: translateY(-2px); /*Slight upward movement on hover */
   box-shadow: 0 4px 8px rgba(92, 39, 254, 0.3); /* Subtle shadow on hover */
 }
 .bg-gradient {
@@ -52,6 +43,59 @@ p {
   line-height: 85px;
   letter-spacing: 4px;
 }
-.rotation {
-  transform: rotate(20deg);
+.text-gradient {
+  background: linear-gradient(264.28deg, #dec7ff -38.2%, #5c27fe 103.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-animation {
+  font-size: 26vw;
+  font-weight: 800;
+}
+.about {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    84deg,
+    rgba(9, 9, 121, 0.6615896358543417) 0%,
+    rgba(57, 59, 119, 1) 0%,
+    rgba(7, 10, 41, 1) 56%
+  );
+}
+.portfolio {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    84deg,
+    rgba(9, 9, 121, 0.6615896358543417) 0%,
+    rgba(7, 10, 41, 1) 0%,
+    rgba(25, 27, 80, 1) 100%
+  );
+}
+.game {
+  font-size: 350px;
+}
+.speciality-box {
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.05), hsla(0, 0%, 100%, 0) 73.86%);
+  border-radius: 15px;
+  padding: 15px 10px;
+  position: relative;
+  text-align: center;
+}
+.resume {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    84deg,
+    rgba(9, 9, 121, 0.6615896358543417) 0%,
+    rgba(7, 10, 41, 1) 0%,
+    rgba(25, 27, 80, 1) 100%
+  );
+}
+.portfolio-box {
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.05), hsla(0, 0%, 100%, 0) 73.86%);
+  border-radius: 16px;
+  margin-bottom: 19px;
+  padding: 40px 23px;
+  position: relative;
 }
