@@ -99,3 +99,58 @@ p {
   padding: 40px 23px;
   position: relative;
 }
+.sliderProjects .content {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background: hsla(0, 0%, 100%, 0.1);
+  border-radius: 11px;
+  bottom: 30px;
+  left: 30px;
+  padding: 17px;
+  position: absolute;
+  right: 30px;
+  text-align: center;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  background: rgb(127, 127, 221);
+  background: linear-gradient(
+    84deg,
+    rgba(9, 9, 121, 0.6615896358543417) 0%,
+    rgba(7, 10, 41, 1) 0%,
+    rgb(140, 142, 204) 100%
+  );
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.owl-nav {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 30px;
+  gap: 100px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.newslatter {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    0deg,
+    rgba(9, 9, 121, 0.6615896358543417) 0%,
+    rgba(7, 10, 41, 1) 0%,
+    rgba(25, 27, 80, 1) 31%
+  );
+}
