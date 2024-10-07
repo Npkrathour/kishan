@@ -41,7 +41,7 @@ var tl6 = gsap.timeline();
 // Animate .animate-3
 tl6.from(".newslatter .animate-3", {
   duration: 1,
-  rotate: 360,
+  rotate: 90,
   scrollTrigger: {
     trigger: ".animate-3",
     start: "top 50%",
@@ -53,7 +53,7 @@ tl6.from(".newslatter .animate-3", {
 // Animate .animate-4
 tl6.from(".newslatter .animate-4", {
   duration: 1,
-  rotate: 180,
+  rotate: 270,
   scrollTrigger: {
     trigger: ".animate-4",
     start: "top 50%",
@@ -65,7 +65,7 @@ tl6.from(".newslatter .animate-4", {
 // Animate .animate-5
 tl6.from(".newslatter .animate-5", {
   duration: 1,
-  rotate: 90,
+  rotate: 180,
   scrollTrigger: {
     trigger: ".animate-5",
     start: "top 50%",
@@ -77,7 +77,7 @@ tl6.from(".newslatter .animate-5", {
 // Animate .animate-6
 tl6.from(".newslatter .animate-6", {
   duration: 1,
-  rotate: 70,
+  rotate: 90,
   scrollTrigger: {
     trigger: ".animate-6",
     start: "top 50%",
@@ -87,13 +87,3 @@ tl6.from(".newslatter .animate-6", {
 });
 
 // Animate .animate-7
-tl6.from(".newslatter .animate-7", {
-  duration: 1,
-  rotate: 90,
-  scrollTrigger: {
-    trigger: ".animate-7",
-    start: "top 50%",
-    scrub: true, // Corrected scrub
-    stagger: 0.5,
-  },
-});
