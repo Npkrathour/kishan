@@ -6,11 +6,11 @@ function toggleMenu() {
 
 $(".owl-carousel").owlCarousel({
   loop: true,
-  margin: 10,
+  margin: 20,
   nav: true,
   autoplay: true,
-  autoplayTimeout: 2000,
-  autoplayHoverPause: false,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
   dots: false,
   smartSpeed: 500,
   autoplaySpeed: 800,
@@ -22,14 +22,16 @@ $(".owl-carousel").owlCarousel({
   responsive: {
     0: {
       items: 1,
+      margin: 10,
     },
-    600: {
-      items: 3,
+    640: {
+      items: 2,
+      margin: 15,
     },
-    1000: {
-      items: 3,
+    1024: {
+      items: 2,
     },
-    1180: {
+    1280: {
       items: 4,
     },
   },

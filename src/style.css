@@ -154,3 +154,30 @@ p {
     rgba(25, 27, 80, 1) 31%
   );
 }
+
+@media screen and (max-width: 1180px) {
+  .font-size-1 {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 55px;
+    letter-spacing: 4px;
+  }
+  .text-animation {
+    font-size: 20vw;
+    font-weight: 800;
+  }
+  .game {
+    font-size: 280px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .font-size-1 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 2px;
+  }
+  .filter-image img {
+    filter: brightness(0);
+  }
+}
