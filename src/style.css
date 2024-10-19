@@ -180,7 +180,4 @@ p {
     line-height: 36px;
     letter-spacing: 2px;
   }
-  .filter-image img {
-    filter: brightness(0);
-  }
 }

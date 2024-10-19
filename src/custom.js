@@ -1,8 +1,16 @@
-// Toggle mobile menu
+
 function toggleMenu() {
   const menu = document.getElementById("mobileMenu");
   menu.classList.toggle("hidden");
+
+  const links = menu.querySelectorAll("a");
+  links.forEach(link => {
+    link.addEventListener("click", () => {
+      menu.classList.add("hidden"); 
+    });
+  });
 }
+
 
 $(".owl-carousel").owlCarousel({
   loop: true,
