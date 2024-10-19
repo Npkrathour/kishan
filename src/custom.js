@@ -88,4 +88,25 @@ tl6.from(".newslatter .animate-6", {
   },
 });
 
+var tl10 = gsap.timeline();
+tl10.from(".Navbar a", {
+  y: -30,
+  opacity: 0,
+  duration: 1,
+  delay: 0.4,
+  stagger: 0.5,
+});
+
+
+var tl11 = gsap.timeline();
+tl10.from(".bg-gradient .animation-images", {
+  y: -30,
+  opacity: 0,
+  duration: 1,
+  delay: 0.4,
+  stagger: 0.5,
+});
+
 // Animate .animate-7
+
+AOS.init();
